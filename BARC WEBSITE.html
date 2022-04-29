@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <title>Ajay-Biswas</title>
+    <style>
+         nav{
+   position:relative;
+   font-size: large;
+   font-weight: bolder;
+   width:100%;
+   height:50px;
+   background: rgba(127, 238, 255, 0.164);
+   border-radius: 8px;
+   box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+   padding: 20px;
+    text-align: center;
+    background-image: url("images/nature-9.jpg");
+}
+    nav a{
+        font-size: 15px;
+        text-transform: uppercase;
+        color: blanchedalmond;
+        line-height: 50px;
+        position: relative;
+        z-index: 1;
+        display:inline-block;
+        text-align: center;
+
+    }
+    a:hover{
+    color: rgb(105, 255, 115);
+    text-decoration: none;
+} 
+    nav .animation{
+        position:absolute;
+        height: 5px;
+       
+       bottom: 0;
+        z-index: 0;
+        background: #bc1a27;
+       transition: all .35s ease 0s;
+        border-radius: 8px;
+    }
+    a:nth-child(1){
+        width: 100px;
+    }
+    nav .start-Home, a:nth-child(1):hover~.animation{
+        width: 100px;
+        left: 325px;
+    }
+    a:nth-child(2){
+        width: 120px;
+    }
+    nav .start-Youtube, a:nth-child(2):hover~.animation{
+        width: 100px;
+        left: 465px;
+    }
+    a:nth-child(3){
+        width: 100px;
+    }
+    nav .start-Insta, a:nth-child(3):hover~.animation{
+        width: 100px;
+        left: 600px;
+    }
+    a:nth-child(4){
+        width: 100px;
+    }
+    nav .start-FB, a:nth-child(4):hover~.animation{
+        width: 100px;
+        left: 725px;
+    }
+    a:nth-child(5){
+        width: 160px;
+    }
+    nav .start-CollegeVlog, a:nth-child(5):hover~.animation{
+        width: 100px;
+        left: 882px;
+    }
+    a:nth-child(6){
+        width: 160px;
+    }
+    nav .start-Workshop, a:nth-child(6):hover~.animation{
+        width: 100px;
+        left: 1073px;
+    }
+        B-1{
+            margin: 0;
+            height: 100vh;
+            display: grid;
+        }
+        
+        span{
+            color: antiquewhite;
+            text-align: center;
+            font-family: Raleway;
+            font-weight:bolder;
+            text-transform: capitalize;
+        }
+        html{
+    height: 100%;
+    overflow:hidden;
+}
+body{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+header{
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 30vw 0 5vw;
+    position:relative;
+    transform-style: inherit;
+    width: 100vw;
+
+}
+header h1{
+    margin-top: -100px;
+}
+header, header::before{
+    background: 50% 50%/cover;
+}
+
+header::before{
+    bottom:0;
+    content: "";
+    left:0;
+    position: absolute;
+    right: 0;
+    top:0;
+    display: block;
+    background-image: url("images/nature-9.jpg");
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+
+}
+
+header * {
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+}
+        .banner{
+           
+           background-color:chartreuse;
+            background-size:cover;
+            background-image: url("images/nature-6.jpg");
+            position: relative;
+        }
+        .infoyou{
+            font-family:Raleway;
+        }
+        footer{
+   position:relative;
+   font-size: large;
+   font-weight: bolder;
+   width:100%;
+   height:50px;
+   background: rgba(127, 238, 255, 0.164);
+   border-radius: 8px;
+   box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+   padding: 5px;
+    text-align: center;
+    background-image: url("images/nature-9.jpg");
+}
+    footer a{
+        font-size: 15px;
+        text-transform: uppercase;
+        color: blanchedalmond;
+        line-height: 50px;
+        position: relative;
+        z-index: 1;
+        display:inline-block;
+        text-align: center;
+    }
+    footer .animation{
+        position:absolute;
+        height: 5px;
+       top: 0;
+       
+        z-index: 0;
+        background: #bc1a27;
+       transition: all .35s ease 0s;
+        border-radius: 8px;
+    }
+    a:nth-child(1){
+        width: 100px;
+    }
+    nav .start-FAQ, a:nth-child(1):hover~.animation{
+        width: 100px;
+        left: 325px;
+    }
+    a:nth-child(2){
+        width: 120px;
+    }
+    nav .start-Contactme, a:nth-child(2):hover~.animation{
+        width: 100px;
+        left: 465px;
+    }
+    a:nth-child(3){
+        width: 100px;
+    }
+    nav .start-TermsofUse, a:nth-child(3):hover~.animation{
+        width: 100px;
+        left: 600px;
+    }
+    a:nth-child(4){
+        width: 100px;
+    }
+    nav .start-aboutme, a:nth-child(4):hover~.animation{
+        width: 100px;
+        left: 725px;
+    }
+
+        
+        
+
+       
+    
+    </style>
+</head>
+<body>
+   <HEAder><h1 class="w3-tangerine" style="font-family:'Times New Roman', Times, serif;color:rgb(255, 255, 255);">"Look deep into nature, and then you will understand everything better." -Albert Einstein </h1>
+    <p><em>Hello welcome to my page.</em></p>   
+    </HEAder>
+    <div class="banner">
+        <nav class="navigation" style="border-bottom: solid 3px rgb(253, 123, 62);">
+              <a class="navi" href="BARC WEBSITE.html">Home</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <a  class="navi" href="https://www.youtube.com/channel/UCiJ-HcbSkilzXHUtthLLOew/featured" target="_blank">Youtube</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <a  class="navi" href="https://www.instagram.com/ajaybiswas5872018/" target="_blank">Insta</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a  class="navi" href="https://www.facebook.com/people/Ajay-Biswas/100074748354912/" target="_blank">FB</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <a  class="navi" href="college volg.html" target="_blank">College Vlog</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <a  class="navi" href="Blog.html" target="_blank">Blog</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <div class="animation start-home"></div>
+        </nav>
+       <span><h2 align="center" style="color: darkturquoise;">HELLO THERE!</h2>
+        <h2 align="center" style="color: rgb(192, 237, 237);">THIS IS AJAY BISWAS</h2>
+       <h2><p align="center" style="color:darkturquoiset">Am a fresher at <b>IIT KHARAGPUR</b> and is trying to do something interesting and wonderful in life :)</p></h2> 
+      <h2><p align="center" style="color:black">Enrolled in the Department of Mechanical Engineering</p></h2> 
+      <h2><p align="center" style="color:rgb(255, 255, 255)">I'm a boarder of LAL BAHADUR SHASTRI Hall of residence.</p></h2></span>
+      <br><br><br> 
+     <div style="font-weight: bolder;font-size: xx-large;"><h3 align="center" style="color:rgb(255, 255, 255)"class="infoyou">And i also have a youtube channel to record all the interesting things happening to me :) <br>
+        <br> Here are some weirdy gameplays which I have uploaded on my youtube channel:</h3></div> 
+        <p align="center" style="font-size:xx-large;color:aliceblue;">previews:-</p>
+       <div align="center"> <iframe width="560" height="315" src="https://www.youtube.com/embed/LS1ugfJgslQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LkWAQQZP6iY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+       </div>
+       <footer>
+        <a href="FAQ.html" target="_blank">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="contactme.html" target="_blank">Contact me</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="term.html">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="aboutme.html" target="_blank">about me</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </footer>
+
+
+        
+
+        
+    
+</body>
+</html>
